@@ -1,0 +1,4 @@
+
+GET http://localhost:8080/ingredients/recipee/kipfilet piperade
+Accept-Language: nl
+Content-Type: application/json

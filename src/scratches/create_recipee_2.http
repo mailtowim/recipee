@@ -1,0 +1,35 @@
+
+ POST http://localhost:8080/recipees
+Content-Type: application/json
+
+{
+  "name": "vongole met vegetarische spaghetti",
+  "cookingInstructions": "bakken in de wok",
+  "description": "variatie op spaghetti a la vongole door de gebroeders torres",
+  "ingredients": [
+    {
+      "name": "witte wijn",
+      "quantity": "1 glas"
+    },
+    {
+      "name": "vongole",
+      "quantity": "250 gram"
+    },
+    {
+      "name": "kimchi",
+      "quantity": "1 blik"
+    },
+    {
+      "name": "aubergine",
+      "quantity": "1"
+    },
+    {
+      "name": "regenboogwortelen",
+      "quantity": "250 gram"
+    },
+    {
+      "name": "sojasaues",
+      "quantity": "3 lepels"
+    }
+  ]
+}

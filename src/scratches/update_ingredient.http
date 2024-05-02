@@ -1,0 +1,6 @@
+PUT http://localhost:8080/ingredients/recipee/kipfilet piperade/ingredient/basilicum
+Content-Type: application/json
+
+{
+      "quantity": "1"
+}

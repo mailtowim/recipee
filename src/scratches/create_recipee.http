@@ -1,0 +1,42 @@
+ POST http://localhost:8080/recipees/
+Content-Type: application/json
+
+{
+  "name": "kipfilet piperade",
+  "cookingInstructions": "bakken in de pan",
+  "description": "baskisch gerecht met kipfilet van jeroen meus",
+  "ingredients": [
+    {
+      "name": "kipfilet",
+      "quantity": "1"
+    },
+    {
+      "name": "azijn",
+      "quantity": "1 koffielepel"
+    },
+    {
+      "name": "ui",
+      "quantity": "1"
+    },
+    {
+      "name": "aardappelen",
+      "quantity": "160 gram"
+    },
+    {
+      "name": "paprika",
+      "quantity": "1"
+    },
+    {
+      "name": "moscabadosuiker",
+      "quantity": "1 soeplepel"
+    },
+    {
+      "name": "tijm",
+      "quantity": "1 koffielepel"
+    },
+    {
+      "name": "basilicum",
+      "quantity": "1 blad"
+    }
+  ]
+}
